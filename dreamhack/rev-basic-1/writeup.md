@@ -111,48 +111,91 @@ jz      short loc_140001023
 
 {
 if ( *a1 != 67 )
+
 return 0i64;
+
 if ( a1[1] != 111 )
+
 return 0i64;
+
 if ( a1[2] != 109 )
+
 return 0i64;
+
 if ( a1[3] != 112 )
+
 return 0i64;
+
 if ( a1[4] != 97 )
+
 return 0i64;
+
 if ( a1[5] != 114 )
+
 return 0i64;
+
 if ( a1[6] != 51 )
+
 return 0i64;
+
 if ( a1[7] != 95 )
+
 return 0i64;
+
 if ( a1[8] != 116 )
+
 return 0i64;
+
 if ( a1[9] != 104 )
+
 return 0i64;
+
 if ( a1[10] != 101 )
+
 return 0i64;
+
 if ( a1[11] != 95 )
+
 return 0i64;
+
 if ( a1[12] != 99 )
+
 return 0i64;
+
 if ( a1[13] != 104 )
+
 return 0i64;
+
 if ( a1[14] != 52 )
+
 return 0i64;
+
 if ( a1[15] != 114 )
+
 return 0i64;
+
 if ( a1[16] != 97 )
+
 return 0i64;
+
 if ( a1[17] != 99 )
+
 return 0i64;
+
 if ( a1[18] != 116 )
+
 return 0i64;
+
 if ( a1[19] != 51 )
+
 return 0i64;
+
 if ( a1[20] == 114 )
+
 return a1[21] == 0;
+
 return 0i64;
+
 }
 
 이므로 FLAG 값은 배열 a1에 저장이 되어있고 각 숫자들을 아스키 코드표에 대조해서 문자로 바꾸면 FLAG 값을 찾을 수 있다.
