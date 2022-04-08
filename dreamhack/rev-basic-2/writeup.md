@@ -104,38 +104,71 @@ cmp     [rcx+rax*4], edx ; rcx에 저장된 aC주소값에서 4바이트 다음 
 aC주소를 더블클릭하여 따라가면 다음과 같은 값들을 볼 수 있다.
 
 .data:00007FF74F2B3000 aC db 'C',0                             ; DATA XREF: sub_7FF74F2B1000+28↑o
+
 .data:00007FF74F2B3002 align 4
+
 .data:00007FF74F2B3004 aO db 'o',0
+
 .data:00007FF74F2B3006 align 8
+
 .data:00007FF74F2B3008 aM db 'm',0
+
 .data:00007FF74F2B300A align 4
+
 .data:00007FF74F2B300C aP db 'p',0
+
 .data:00007FF74F2B300E align 10h
+
 .data:00007FF74F2B3010 a4 db '4',0
+
 .data:00007FF74F2B3012 align 4
+
 .data:00007FF74F2B3014 aR db 'r',0
+
 .data:00007FF74F2B3016 align 8
+
 .data:00007FF74F2B3018 aE db 'e',0
+
 .data:00007FF74F2B301A align 4
+
 .data:00007FF74F2B301C db '_*',0
+
 .data:00007FF74F2B301E align 20h
+
 .data:00007FF74F2B3020 aT db 't',0
+
 .data:00007FF74F2B3022 align 4
+
 .data:00007FF74F2B3024 db 'h',0
+
 .data:00007FF74F2B3026 align 8
+
 .data:00007FF74F2B3028 aE_0 db 'e',0
+
 .data:00007FF74F2B302A align 4
+
 .data:00007FF74F2B302C db '_*',0
+
 .data:00007FF74F2B302E align 10h
+
 .data:00007FF74F2B3030 aA db 'a',0
+
 .data:00007FF74F2B3032 align 4
+
 .data:00007FF74F2B3034 aR_0 db 'r',0
+
 .data:00007FF74F2B3036 align 8
+
 .data:00007FF74F2B3038 aR_1 db 'r',0
+
 .data:00007FF74F2B303A align 4
+
 .data:00007FF74F2B303C a4_0 db '4',0
+
 .data:00007FF74F2B303E align 20h
+
 .data:00007FF74F2B3040 aY db 'y',0
+
 
 여기서 보면 aC값인 00007FF74F2B3000를 기점으로 4바이트마다 문자가 하나씩 저장되어 있는 것을 볼 수 있다. 
 
