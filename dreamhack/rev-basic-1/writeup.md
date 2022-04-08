@@ -45,12 +45,19 @@ printf함수와 scanf함수를 분석하는 것은 rev-basic-0에서 자세히 �
 ![시작구조.PNG](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/180fed0e-8cbc-48f6-bc41-9d05b5bafc28/시작구조.png)
 
 mov     [rsp+arg_0], rcx  // rcx(매개변수)로 받은 값을 rsp+arg_0 위치에 저장
+
 mov     eax, 1                 // eax에 1값 저장
+
 imul    rax, 0                  // rax에0곱함 즉 rax는 0
+
 mov     rcx, [rsp+arg_0] // rcx에 저장했던 곳 주소 저장.
+
 movzx   eax, byte ptr [rcx+rax] //rcx+rax에 저장된 값 byte로 가져와 eax랑 비교
+
 cmp     eax, 43h ; 'C' // eax에 저장된 값이 C인지 비교
+
 jz      short loc_140001023
+
 
 여기서 만약 eax가 ‘C’가 아니라면 빨간색 선(false)가 실행되어 함수는 return이 되고 ‘C’라면 참이되어 초록샌 선이 실행되어 비교를 진행한다.
 
