@@ -33,9 +33,13 @@ sub_140001000함수의 전체구조이다. rev-basic-2에서 봤듯이 반복문
 ## sub_140001000진입점
 
 mov     [rsp+arg_0], rcx
+
 sub     rsp, 18h
+
 mov     [rsp+18h+var_18], 0
+
 jmp     short loc_14000101A
+
 
 rsp+arg_0에 매개변수로 받은 rcx를 넣는다. 이 함수가 실행되기 전에 scanf로 사용자에게서 입력을 받았으므로 rcx에는 사용자가 입력한 문자열의 주소가 들어있을 것이다.
 
@@ -47,25 +51,40 @@ rsp+18h+var_18의 주소 위치에 0을 넣고 14000101A를 실행한다.
 
 ## 14000101A
 
+
 movsxd  rax, [rsp+18h+var_18]
+
 cmp     rax, 18h
+
 jnb     short loc_140001053
+
 
 별 내용은 없다. rax에 초기화 했던 0값을 넣고 0x18보다 작다면 140001053으로 이동한다. 
 
 ## 140001053
 
 1.movsxd  rax, [rsp+18h+var_18]
+
 2.lea     rcx, unk_140003000
+
 3.movzx   eax, byte ptr [rcx+rax]
+
 4.movsxd  rcx, [rsp+18h+var_18]
+
 5.mov     rdx, [rsp+18h+arg_0]
+
 6.movzx   ecx, byte ptr [rdx+rcx]
+
 7.xor     ecx, [rsp+18h+var_18]
+
 8.mov     edx, [rsp+18h+var_18]
+
 9.lea     ecx, [rcx+rdx*2]
+
 10.cmp     eax, ecx
+
 jz      short loc_140001051
+
 
 1.rax에 rsp+18h+var_18에 들어있는 값인 0을 넣어준다. 
 
