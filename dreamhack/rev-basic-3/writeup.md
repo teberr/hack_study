@@ -149,8 +149,12 @@ x = input xor i + i *2 이므로 우리가 구하고자 하는 것은 input값�
 flag="0x49,0x60,0x67,0x74,0x63,0x67,0x42,0x66,0x80,0x78,0x69,0x69,0x7B,0x99,0x6D,0x88,0x68,0x94,0x9F,0x8D,0x4D,0xA5,0x9D,0x45".split(",")
 
 for i in range(len(flag)):
-temp = int(flag[i],16)
-result=(temp-i*2)^i
-print(chr(result),end='')
+
+ temp = int(flag[i],16)
+
+ result=(temp-i*2)^i
+
+ print(chr(result),end='')
+
 
 https://honey-push-30b.notion.site/rev-basic-3-afcc9d0b4d1348f09c897b5e3d95866e
