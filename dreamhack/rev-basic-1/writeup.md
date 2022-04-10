@@ -1,3 +1,5 @@
+https://honey-push-30b.notion.site/rev-basic-1-556c7c00155d4210be0bbe7258dca547 에서 보면 그림이 깨지지 않는다.
+
 # rev-basic-1
 
 # 파일 형식
@@ -200,4 +202,4 @@ return 0i64;
 
 이므로 FLAG 값은 배열 a1에 저장이 되어있고 각 숫자들을 아스키 코드표에 대조해서 문자로 바꾸면 FLAG 값을 찾을 수 있다.
 
-https://honey-push-30b.notion.site/rev-basic-1-556c7c00155d4210be0bbe7258dca547
+
