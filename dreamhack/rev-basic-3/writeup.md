@@ -1,3 +1,6 @@
+https://honey-push-30b.notion.site/rev-basic-3-afcc9d0b4d1348f09c897b5e3d95866e 에서 보면 그림이 깨지지 않는다.
+
+
 # 파일 형식
 
 PE파일 이므로 Windows 실행파일이며 IDA를 실행하면 다음과 같은 내용을 볼 수 있다.
@@ -157,4 +160,3 @@ for i in range(len(flag)):
   print(chr(result),end='')
 
 
-https://honey-push-30b.notion.site/rev-basic-3-afcc9d0b4d1348f09c897b5e3d95866e
