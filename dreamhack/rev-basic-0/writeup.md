@@ -1,3 +1,5 @@
+https://honey-push-30b.notion.site/rev-basic-0-d9bd007d801f4f8b8ecbe44ea32fd240 에서 보면 그림이 깨지지 않는다.
+
 # 파일 형식
 
 PE파일 이므로 Windows 실행파일이며 IDA를 실행하면 다음과 같은 내용을 볼 수 있다.
@@ -165,4 +167,4 @@ shfit + F12를 통해 문자열을 확인하면 딱봐도 의심스러워 보이
 
 ![문자열.PNG](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/511f0613-9112-4e35-9cc5-98f1997d89e4/문자열.png)
 
-https://honey-push-30b.notion.site/rev-basic-0-d9bd007d801f4f8b8ecbe44ea32fd240
+
