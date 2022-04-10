@@ -1,3 +1,5 @@
+https://honey-push-30b.notion.site/rev-basic-2-1abd0e56e0884a2aa20c34c3f80948dd 에서 보면 그림이 깨지지 않는다.
+
 # 파일 형식
 
 PE파일 이므로 Windows 실행파일이며 IDA를 실행하면 다음과 같은 내용을 볼 수 있다.
@@ -208,4 +210,4 @@ aC주소를 더블클릭하여 따라가면 다음과 같은 값들을 볼 수 �
 
 즉 Comp4re_the_arr4y 라는 글자와 사용자가 입력한 값을 한바이트씩 비교하고 있는 것이다. 이 값이 FLAG 값임을 알 수 있다.
 
-https://honey-push-30b.notion.site/rev-basic-2-1abd0e56e0884a2aa20c34c3f80948dd
+
