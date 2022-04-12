@@ -1,3 +1,5 @@
+https://honey-push-30b.notion.site/patch-ba2cd1a81fe644bea2db29ede38146d1 에서 보면 그림이 깨지지 않는다.
+
 # patch
 
 # 파일 형식
@@ -106,6 +108,8 @@ sub_1400017A0의 내용을 확인하면 sub_140002B80과 다르게 조금 긴 �
 
 그렇다면 sub_140002B80함수가 호출되었을 때 선을 긋지 않고 바로 리턴되게 하면 될 것이다.
 
+## 패치하기
+
     
 
 ![sub_140002B80 진입점.PNG](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ce03982e-4e67-44a1-8c24-8c56eb9511b5/sub_140002B80_진입점.png)
@@ -129,5 +133,7 @@ ret로 변경해주고 나면 우리가 패치한 부분을 적용해야한다. 
 ![apply patch.PNG](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ce4fa0f7-497d-4216-bed0-0f644c50cf29/apply_patch.png)
 
 그럼 위와같은 창이 뜨는데 OK를 눌러서 패치를 적용해주면 된다.
+
+## flag값 획득
 
 그럼 flag값 위에 덧칠된 직선을 없애주는 패치를 적용해주었으니 이제 다시 실행하여 flag값을 찾으면 된다. F9를 통해 다시 실행하면 flag값을 얻을 수 있다.
