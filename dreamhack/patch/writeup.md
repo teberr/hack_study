@@ -137,3 +137,4 @@ ret로 변경해주고 나면 우리가 패치한 부분을 적용해야한다. 
 ## flag값 획득
 
 그럼 flag값 위에 덧칠된 직선을 없애주는 패치를 적용해주었으니 이제 다시 실행하여 flag값을 찾으면 된다. F9를 통해 다시 실행하면 flag값을 얻을 수 있다.
+![flag.PNG](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/12bcbab9-17a9-482d-a0f1-021af084fc60/flag.png)
