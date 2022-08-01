@@ -4,7 +4,7 @@ https://honey-push-30b.notion.site/command-injection-1-33be36f526774242ad0731999
 
 ![문제파일 다운로드.PNG](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b64db76d-8b5c-4c9d-bf5e-23b183bd60d3/_.png)
 
-command-injection-1 문제의 접속 정보와 문제 설명 및 문제파일을 다운로드 받을 수 있다. main.js 파일을 보면 아래 코드를 볼 수 있다.
+command-injection-1 문제의 접속 정보와 문제 설명 및 문제파일을 다운로드 받을 수 있다. app.py 파일을 보면 아래 코드를 볼 수 있다.
 
 ```python
 #!/usr/bin/env python3
