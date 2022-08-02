@@ -1,3 +1,5 @@
+https://honey-push-30b.notion.site/Blind-command-76e08da04065483faba45483f45568de
+
 # Blind-command
 
 # 문제 접근
