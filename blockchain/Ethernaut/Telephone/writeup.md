@@ -176,3 +176,30 @@ TelephoneAttack.sol 파일을 컴파일 해준다.
 ![클리어.PNG](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ca958b94-8fdb-4a79-9d29-69825062b54d/%ED%81%B4%EB%A6%AC%EC%96%B4.png)
 
 클리어 성공!
+
+클리어 후 페이지에서는 아래와 같은 내용을 볼 수 있다.
+
+이 예제에서는 간단하지만 tx.origin과 msg.sender를 잘못 사용하면 피싱 스타일의 공격에 취약해진다. 
+
+예를 들어보면
+
+1. `tx.origin` 을 사용해서 보내는 사람을 정하는 코드가 있다고 가정하자
+
+```
+function transfer(address _to, uint _value) {
+  tokens[tx.origin] -= _value;
+  tokens[_to] += _value;
+}
+
+```
+
+1. 해커가 공격대상에게 토큰 컨트랙트의 transfer 함수를 호출하는 악성 컨트랙트를 보내 실행하게 만든다. 
+
+```
+function () payable {
+  token.transfer(attackerAddress, 10000);
+}
+
+```
+
+1. 그러면 `tx.origin` 은 공격 대상의 주소가 되고 ( `msg.sender` 는 악성 컨트랙트의 주소임), 피해자의 주소에서 해커의 주소로 돈이 옮겨지게 된다.
