@@ -1,4 +1,5 @@
-https://honey-push-30b.notion.site/Ethernaut-Fallback-835a6262797044518715d0026839164d
+https://teberr.notion.site/Ethernaut-Fallback-835a6262797044518715d0026839164d
+
 ![Fallback.PNG](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b0f8af91-8d56-4005-bcd4-43be56d0b375/Fallback.png)
 
 튜토리얼 hello ethernaut을 완료하면 진행할 수 있는 사실상 첫번째 CTF 문제 Fallback이다. 
