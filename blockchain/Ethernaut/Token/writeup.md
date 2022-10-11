@@ -1,4 +1,4 @@
-https://honey-push-30b.notion.site/Ethernaut-Token-a63d126a41ce44f190721bdb34129ab7
+https://teberr.notion.site/Ethernaut-Token-a63d126a41ce44f190721bdb34129ab7
 
 ![문제.PNG](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1dbdca49-3892-4483-ab29-136bf62b549a/%EB%AC%B8%EC%A0%9C.png)
 
