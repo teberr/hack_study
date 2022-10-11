@@ -1,4 +1,4 @@
-https://honey-push-30b.notion.site/Ethernaut-Coin-Flip-9f00991b499645638f4da14820ec2548
+https://teberr.notion.site/Ethernaut-Coin-Flip-9f00991b499645638f4da14820ec2548
 
 ![Coin Flip.PNG](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/53e06193-6cf1-4e27-b724-402b71ea15b6/Coin_Flip.png)
 
