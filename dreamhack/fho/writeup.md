@@ -140,7 +140,7 @@ gdb-peda$ x/40x 0x7fffffffdfa0
 from pwn import *
 
 host="host3.dreamhack.games"
-port=17481
+port=11211
 p=remote(host,port)
 
 e=ELF('./fho') # 파일 불러오기
@@ -206,7 +206,7 @@ from pwn import *
 #context.log_level = 'debug'
 
 host="host3.dreamhack.games"
-port=
+port=11211
 p=remote(host,port)
 
 e=ELF('./fho') # 파일 불러오기
